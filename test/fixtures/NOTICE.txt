@@ -1,0 +1,7 @@
+encrypted.pdf is the AES-256-protected blank-page fixture from
+pdfrx_engine 0.9.2, test/assets/encrypted.pdf.
+Origin: https://github.com/espresso3389/pdfrx
+Upstream MIT license: PDFRX_LICENSE.txt.
+
+User password: user. Owner password: owner.
+Tests verify that FileKit rejects protected PDFs; the app does not remove protection.
